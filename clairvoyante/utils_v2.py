@@ -8,7 +8,7 @@ import blosc
 import gc
 import shlex
 import subprocess
-import params
+import param
 base2num = dict(zip("ACGT",(0, 1, 2, 3)))
 
 def SetupEnv():
